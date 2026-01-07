@@ -15,7 +15,7 @@ else:
         count += 1
 
 
-"""# Simplify the code by removing unnecessary variables and conditions. optimze the code 
+# Simplify the code by removing unnecessary variables and conditions. optimze the code 
 n = int(input("Enter the number of terms in the Fibonacci sequence: "))
 a, b = 0, 1
 if n <= 0:
@@ -42,9 +42,9 @@ else:
     print(' '.join(map(str, fibonacci(n))))
 
 #Give me short report on fibonacci sequence code with and without function
-The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones,
+"""The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones,
 usually starting with 0 and 1. The code provided generates the Fibonacci sequence up to 'n' terms in two different ways:
-without functions and with functions.
+without functions and with functions."""
 
 #Fibionacci with iterations and recursion
 # Iterative approach
@@ -77,4 +77,3 @@ if n <= 0:
 else:
     print("Fibonacci sequence up to", n, "terms (Recursive):")
     print(' '.join(map(str, fibonacci_recursive(n))))
-"""
