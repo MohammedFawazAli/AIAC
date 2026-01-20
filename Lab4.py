@@ -66,7 +66,26 @@ vowel_count2 = count_vowels(input_string2)
 print("Number of vowels in '{}': {}".format(input_string1, vowel_count1))
 print("Number of vowels in '{}': {}".format(input_string2, vowel_count2))
 
-#Comaprision between zero-shot and few-shot prompting
-#Zero-shot prompting involves providing the model with a task or question without any prior examples or context
-#Few-shot prompting, on the other hand, involves providing the model with a few examples or context to help it understand the task better before asking it to generate a response.
+"""
+Comaprision between zero-shot and few-shot prompting
+Zero-shot prompting involves providing the model with a task or question without any prior examples or context
+Few-shot prompting, on the other hand, involves providing the model with a few examples or context to help it understand the task better before asking it to generate a response.
+"""
 
+#Write a python program to find minimum of 3 numbers without using builtin function.
+# Eg:- Input: 3, 1, 2 Output: 1
+# Input: -1, -2, -3 Output: -3
+# Input: 0, 0, 0 Output: 0
+def find_minimum(a, b, c):
+    if a <= b and a <= c:
+        return a
+    elif b <= a and b <= c:
+        return b
+    else:
+        return c
+input1 = (3, 1, 2)
+input2 = (-1, -2, -3)
+input3 = (0, 0, 0)
+print("Minimum of {} is: {}".format(input1, find_minimum(*input1)))
+print("Minimum of {} is: {}".format(input2, find_minimum(*input2)))
+print("Minimum of {} is: {}".format(input3, find_minimum(*input3)))
